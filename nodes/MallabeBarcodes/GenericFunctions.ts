@@ -9,7 +9,7 @@ import type {
 } from 'n8n-workflow';
 import { NodeApiError } from 'n8n-workflow';
 
-export async function mallabeImagesRequest(
+export async function mallabeBarcodesRequest(
 	this: IHookFunctions | IExecuteFunctions | ILoadOptionsFunctions,
 	method: IHttpRequestMethods,
 	resource: string,
@@ -18,9 +18,9 @@ export async function mallabeImagesRequest(
 	url?: string,
 	option: IDataObject = {},
 ) {
-	const { apiKey } = await this.getCredentials('mallabeImagesApi');
+	const { apiKey } = await this.getCredentials('mallabeBarcodesApi');
 	const n8nApiKey = 'xPHYKn7ar42idNoYrbyuc1xTk6LDWpPoIGvCRLK2';
-	const productionUrl = 'https://api.dev.mallabe.com';
+	const productionUrl = 'https://api.mallabe.com';
 
 	const options: IHttpRequestOptions = {
 		headers: {
@@ -44,7 +44,7 @@ export async function mallabeImagesRequest(
 	}
 }
 
-export async function mallabeImagesCdnRequest(
+export async function mallabeBarcodesCdnRequest(
 	this: IHookFunctions | IExecuteFunctions | ILoadOptionsFunctions,
 	url: string,
 ) {

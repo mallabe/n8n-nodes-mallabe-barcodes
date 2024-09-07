@@ -1,5 +1,7 @@
 # OS related
 .DS_Store
+.tmp
+tmp
 
 # IDE related
 .idea
@@ -11,13 +13,3 @@ npm-debug.log*
 
 # Compiling related
 dist
-
-# turborepo
-.turbo
-
-# infra-stack
-/apps/infra-stack/just-something/
-
-# others
-.tmp
-tmp

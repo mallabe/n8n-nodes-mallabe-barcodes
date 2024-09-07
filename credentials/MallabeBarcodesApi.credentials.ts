@@ -2,10 +2,10 @@ import type { ICredentialType, INodeProperties, IAuthenticateGeneric, ICredentia
 
 const N8N_API_KEY = 'xPHYKn7ar42idNoYrbyuc1xTk6LDWpPoIGvCRLK2';
 
-export class MallabeImagesApi implements ICredentialType {
-	name = 'mallabeImagesApi';
+export class MallabeBarcodesApi implements ICredentialType {
+	name = 'mallabeBarcodesApi';
 
-	displayName = 'Mallabe Images API';
+	displayName = 'Mallabe Barcodes API';
 
 	documentationUrl = 'https://www.mallabe.com';
 
@@ -31,7 +31,7 @@ export class MallabeImagesApi implements ICredentialType {
 
 	test: ICredentialTestRequest = {
 		request: {
-			baseURL: 'https://api.dev.mallabe.com',
+			baseURL: 'https://api.mallabe.com',
 			url: '/v1/accounts/me',
 			method: 'POST'
 		},

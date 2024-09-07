@@ -1,11 +1,13 @@
 {
-  "name": "n8n-nodes-mallabe-images",
-  "version": "0.1.3",
-  "description": "n8n community node to alter images using Mallabe Images",
+  "name": "n8n-nodes-mallabe-barcodes",
+  "version": "0.1.0",
+  "description": "n8n community node to alter images using Mallabe Barcodes",
   "keywords": [
     "n8n-community-node-package",
+    "barcode generate",
+    "qr code",
+    "barcode scanner",
     "n8n",
-    "image manipulation",
     "mallabe",
     "no-code",
     "n8n-node",
@@ -19,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mallabe/n8n-node-mallabe-images"
+    "url": "https://github.com/mallabe/n8n-node-mallabe-barcodes"
   },
   "engines": {
     "node": ">=18.10",
@@ -42,10 +44,10 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
-      "dist/credentials/MallabeImages.credentials.js"
+      "dist/credentials/MallabeBarcodesApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/MallabeImages/MallabeImages.node.js"
+      "dist/nodes/MallabeBarcodes/MallabeBarcodes.node.js"
     ]
   },
   "devDependencies": {
