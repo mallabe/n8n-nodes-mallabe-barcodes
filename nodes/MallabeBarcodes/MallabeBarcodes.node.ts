@@ -65,19 +65,19 @@ export class MallabeBarcodes implements INodeType {
 						name: 'Generate Barcode',
 						value: 'generateBarcode',
 						description: 'Generate a barcode of different types such as UPC, EAN, and more',
-						action: 'Generate Barcode',
+						action: 'Generate barcode',
 					},
 					{
 						name: 'Generate QR Code',
 						value: 'generateQrCode',
 						description: 'Generate a QR code',
-						action: 'Generate A QR Code',
+						action: 'Generate a qr code',
 					},
 					{
 						name: 'Scan Barcode',
 						value: 'scanBarcode',
 						description: 'Scan a QR code or barcode',
-						action: 'Scan Barcode',
+						action: 'Scan barcode',
 					}
 				],
 				default: 'generateQrCode',
