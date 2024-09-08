@@ -2,7 +2,7 @@
 	"node": "n8n-nodes-base.mallabeBarcodes",
 	"nodeVersion": "1.0",
 	"codexVersion": "1.0",
-	"categories": ["Images"],
+	"categories": ["Barcodes", "Utilities"],
 	"resources": {
 		"credentialDocumentation": [
 			{
