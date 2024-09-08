@@ -1,7 +1,7 @@
 {
   "name": "n8n-nodes-mallabe-barcodes",
-  "version": "0.1.1",
-  "description": "n8n community node to alter images using Mallabe Barcodes",
+  "version": "0.1.2",
+  "description": "n8n community node that allows the generation & scanning of different barcodes, such as the popular QR code, UPC, EAN & others using Mallabe Barcodes",
   "keywords": [
     "n8n-community-node-package",
     "barcode generate",
